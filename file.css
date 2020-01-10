@@ -1,0 +1,75 @@
+
+
+h1{
+    text-align: center;
+color: #e8b9a9 !important;
+
+}
+
+#image_add{
+    height: 80px;
+    width: 80px;
+}
+
+#table_shopping{
+    background-color: white;
+}
+th{
+    color:#e8b9a9;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+
+.header_tables{
+    margin: 15px;
+}
+
+#dropdownMenuButton{
+   
+    float: right;
+    margin-left: 230px;
+    background-color: white;
+}
+#supermarket_img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#list_item{
+    list-style-type: none; 
+}
+
+th{
+    background-color: white;
+}
+
+body{
+    background-color: #454140 !important;
+}
+
+#sumContainer{
+     bottom : 0;
+     position: fixed;
+     color: white;
+     width: 100%;
+     display: flex;
+     
+
+}
+#totalSum{
+    margin: 30px;
+    font-size: 30px;
+}
+#sum{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+}
+

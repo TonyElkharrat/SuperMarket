@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+        <title>SuperMarket</title>
+        <link rel="stylesheet" type="text/css" href="file.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+     </head>
+     <body>
+     <div class="jumbotron">
+        <h1>The SuperMarket</h1>
+        <img src="supermarket.png" id="supermarket_img">
+     </div>
+     <div class="container">
+        <table class="table table-striped table-dark"  id="table_shopping">
+            <thead  >
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Product Description</th>
+                <th scope="col">Unit Price</th>
+                <th scope="col">Quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+ 
+            </tbody>
+          </table>
+
+         
+         <div class="dropdown">
+           
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="add_image.png"  id="image_add">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <ul id="list_item">
+                    <li id="tomatoes"><a href="#">Tomatoes</a></li>
+                    <li id="banana"><a href="#">Banana</a></li>
+                    <li id="cake"><a href="#">Cake</a></li>
+                </ul>
+            </div>
+          </div>
+          </div>
+
+          <div id="sumContainer">
+              <div id="sum">
+          <h2>Total To pay :</h2>
+          <p id="totalSum"></p>
+        </div>
+        </div>
+          <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     </boddiy>
+ </html>
